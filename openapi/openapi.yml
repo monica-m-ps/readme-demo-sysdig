@@ -1,0 +1,221 @@
+openapi: 3.0.0
+info:
+  title: API to provide information about vendor software combinations
+  version: 1.0.0
+
+paths:
+  /validValues:
+    get:
+      summary: Get Valid Values
+      description: Retrieves valid values for specified parameters
+      parameters:
+        - in: query
+          name: host_os_architecture
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: host_os_name
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: host_os_version
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: kubernetes_version
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: orchestrator
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: runtime
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  host_os_architecture:
+                    type: array
+                    items:
+                      type: string
+                  host_os_name:
+                    type: array
+                    items:
+                      type: string
+                  host_os_version:
+                    type: array
+                    items:
+                      type: string
+                  kubernetes_version:
+                    type: array
+                    items:
+                      type: string
+                  orchestrator:
+                    type: array
+                    items:
+                      type: string
+                  runtime:
+                    type: array
+                    items:
+                      type: string
+
+  /invalidValues:
+    post:
+      summary: Add Invalid Value
+      description: Adds an invalid value based on optional parameters
+      parameters:
+        - in: query
+          name: host_os_architecture
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: host_os_name
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: host_os_version
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: kubernetes_version
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: orchestrator
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: runtime
+          required: false
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  message:
+                    type: string
+    get:
+      summary: Get Invalid Value ID
+      description: Get the ID of an invalid value based on a combination of parameters
+      parameters:
+        - in: query
+          name: host_os_architecture
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: host_os_name
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: host_os_version
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: kubernetes_version
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: orchestrator
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: runtime
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+        '404':
+          description: Combination not found
+  /invalidValues/{id}:
+    delete:
+      summary: Delete Invalid Value by ID
+      description: Delete the invalid value with the specified ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Combination not found
+  /testCombination:
+    get:
+      summary: Retrieve one or more combinations representing test environments
+      parameters:
+        - name: count
+          in: query
+          description: Number of environments to retrieve
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        orchestrator:
+                          type: string
+                        runtime:
+                          type: string
+                        kubernetes_version:
+                          type: string
+                        host_os_name:
+                          type: string
+                        host_os_version:
+                          type: string
+                        host_os_architecture:
+                          type: string
