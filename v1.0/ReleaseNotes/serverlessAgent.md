@@ -5,6 +5,7 @@ weight: "11"
 aliases:
   - /en/serverless-agent-release-notes.html
 enable_rss: true
+category: 66ea27461b649100103615cc
 ---
 
 {{% infobox type="tip" %}}
