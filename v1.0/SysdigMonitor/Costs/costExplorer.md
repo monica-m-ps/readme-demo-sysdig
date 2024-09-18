@@ -5,7 +5,8 @@ weight: "15"
 aliases:
   - /en/cost-explorer # main alias
 description: "Cost Explorer presents a powerful exploration tool for Kubernetes costs, allows you slice and dice by Kubernetes labels, browse historical costs, and spot anomalies. Use Cost Explorer to group workload costs by Kubernetes labels and understand how workloads costs are evolving over time."
-category: 66eb3c72e9d67c0059a1cdeb
+category: 66eb3c2b0654ba00132aeac8
+parentDoc: 66eb3c72e9d67c0059a1cdeb
 ---
 
 ![](/image/cost-explorer-2024.png)
