@@ -2,6 +2,7 @@
 title: "Linux Agent Release Notes"
 excerpt: "brief description of page contents that show up on previews"
 category: "66ea35e1abfea54708f4ee84"
+hidden: true
 ---
 
 ## 13.4.0 September 04, 2024
