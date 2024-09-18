@@ -6,7 +6,7 @@ aliases:
   - /en/sysdig-cluster-shield-release-notes
 enable_rss: true
 Description: "Here are the most recent release notes for Cluster Shield. Review the entries to learn about the latest features, defect fixes, and known issues."
-category: "66ea27461b649100103615cc"
+category: "66ea35e1abfea54708f4ee84"
 ---
 
 ## 1.3.1 Sep 10, 2024
