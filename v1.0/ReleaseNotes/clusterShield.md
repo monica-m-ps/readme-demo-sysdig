@@ -7,6 +7,7 @@ aliases:
 enable_rss: true
 Description: "Here are the most recent release notes for Cluster Shield. Review the entries to learn about the latest features, defect fixes, and known issues."
 category: "66ea35e1abfea54708f4ee84"
+hidden: true
 ---
 
 ## 1.3.1 Sep 10, 2024
