@@ -5,6 +5,7 @@ weight: "11"
 aliases:
   - /en/costs
 description: "Costs provide predictable cost analysis and savings estimates for Kubernetes environments."
+category: 66eb3c72e9d67c0059a1cdeb
 ---
 
 ![](/image/cost_advisor_architecture.gif)

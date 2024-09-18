@@ -5,6 +5,7 @@ weight: "15"
 aliases:
   - /en/cost-reports # main alias
 description: "Cost Reports help you automate reporting of costs with Slack and email integrations, and generate periodic JSON/CSV exports for integration with 3rd party tooling."
+category: 66eb3c72e9d67c0059a1cdeb
 ---
 
 You can also use [Cost Explorer](/en/cost-explorer) to create cost reports.
