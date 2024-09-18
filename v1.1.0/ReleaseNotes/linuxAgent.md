@@ -1,12 +1,6 @@
 ---
-linkTitle: "Linux Agent"
 title: "Linux Agent Release Notes"
-weight: "10"
-aliases:
-  - /en/sysdig-agent-release-notes.html
-  - /en/docs/release-notes/sysdig-agent-release-notes/
-enable_rss: true
-Description: "Here are the most recent release notes for Sysdig Agent. Review the entries to learn about the latest features, defect fixes, and known issues."
+excerpt: "brief description of page contents that show up on previews"
 ---
 
 ## 13.4.0 September 04, 2024
