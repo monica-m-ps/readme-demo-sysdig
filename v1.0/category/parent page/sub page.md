@@ -1,7 +1,7 @@
 ---
 title: "sub page"
 excerpt: ""
-category: 66eb4b6e1b64910010378960
+category: 66eb5144745377001ff6e2d6
 parentDocSlug: parent-page
 slug: sub-page
 ---
