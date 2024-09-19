@@ -1,7 +1,7 @@
 ---
 linkTitle: "Sysdig Monitor"
-title: "Sysdig Monitor"
-weight: "2"
+title: "Introduction"
+weight: "1"
 no_list: true
 aliases:
   - /en/sysdig-monitor.html
