@@ -14,7 +14,7 @@ category: 66eb3c2b0654ba00132aeac8
   "images": [
     {
       "image": [
-        "https://github.com/monica-m-ps/readme-demo-sysdig/blob/main/images/cost_advisor_architecture.gif",
+        "https://docs.sysdig.com/image/cost_advisor_architecture.gif",
         null,
         ""
       ],

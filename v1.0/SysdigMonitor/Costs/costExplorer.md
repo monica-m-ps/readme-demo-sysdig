@@ -14,21 +14,6 @@ parentDoc: 66eb3c72e9d67c0059a1cdeb
 
 ## Key Features
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://github.com/monica-m-ps/readme-demo-sysdig/blob/main/images/cost_advisor_architecture.gif",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
 ### Grouping
 
 Use the **Group by** option to select which labels you want to group costs by. Use this option to group costs across any Kubernetes Namespace or Workload label.
