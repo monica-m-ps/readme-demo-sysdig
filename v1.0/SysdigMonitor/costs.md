@@ -8,7 +8,21 @@ description: "Costs provide predictable cost analysis and savings estimates for 
 category: 66eb3c2b0654ba00132aeac8
 ---
 
-![](/image/cost_advisor_architecture.gif)
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/5e367050f78b1f261f18ef5dbc0729e6c95aaf8f383db6145584517be738475e-cost_advisor_architecture.gif",
+        null,
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
 
 Costs help you get insights into the following use cases:
 
