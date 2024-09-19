@@ -11,4 +11,4 @@ category: 66eb3c2b0654ba00132aeac8
 slug: sysdig-monitor-introduction
 ---
 
-test
+[test](doc:costadvisor)
