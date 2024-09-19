@@ -9,6 +9,21 @@ category: 66eb3c2b0654ba00132aeac8
 parentDoc: 66eb3c72e9d67c0059a1cdeb
 ---
 
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://github.com/monica-m-ps/readme-demo-sysdig/blob/main/images/cost_advisor_architecture.gif",
+        null,
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
 ![](/image/cost_advisor_architecture.gif)
 
 ## Concepts
