@@ -6,7 +6,7 @@ aliases:
   - /en/cost-advisor
 description: "Cost Advisor enables teams to get an overview of costs, drill into clusters, namespaces, workloads, and obtain insights and recommendations into where you can optimize and reduce your costs."
 category: 66eb3c2b0654ba00132aeac8
-parentDoc: 66eb3c72e9d67c0059a1cdeb
+parentDocSlug: cost-overview
 ---
 
 ## Concepts

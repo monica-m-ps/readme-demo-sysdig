@@ -7,7 +7,7 @@ aliases:
   - /en/cost-integrations # legacy
 description: "Integrate with your cloud provider to reconcile cost data with your specific costs, leverage Sysdig's Default Pricing, or define your own Pricing."
 category: 66eb3c2b0654ba00132aeac8
-parentDoc: 66eb3c72e9d67c0059a1cdeb
+parentDocSlug: cost-overview
 ---
 
 ## Overview
