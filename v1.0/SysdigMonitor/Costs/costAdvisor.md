@@ -24,12 +24,6 @@ parentDoc: 66eb3c72e9d67c0059a1cdeb
 }
 [/block]
 
-![Alt text](https://docs.sysdig.com/image/cost_advisor_architecture.gif "This is some image...")
-
-https://docs.sysdig.com/image/cost_advisor_architecture.gif
-
-![](/image/cost_advisor_architecture.gif)
-
 ## Concepts
 
 When using Cost Advisor, you can see a breakdown of multiple sources of cost. 
