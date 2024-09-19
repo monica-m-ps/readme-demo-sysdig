@@ -24,6 +24,8 @@ parentDoc: 66eb3c72e9d67c0059a1cdeb
 }
 [/block]
 
+![Alt text](https://github.com/monica-m-ps/readme-demo-sysdig/blob/main/images/cost_advisor_architecture.gif "This is some image...")
+
 ![](/image/cost_advisor_architecture.gif)
 
 ## Concepts
