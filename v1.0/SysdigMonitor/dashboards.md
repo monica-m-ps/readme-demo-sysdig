@@ -26,8 +26,7 @@ Metric descriptor labels can only be used for segmenting, not grouping or scopin
 
 {{% /infobox %}}
 
-[!NOTE]
-Metric descriptor labels can only be used for segmenting, not grouping or scoping.
+**Note**: Metric descriptor labels can only be used for segmenting, not grouping or scoping. This is a test
 
 ## Key Features
 
