@@ -9,6 +9,7 @@ category: 66eb3c2b0654ba00132aeac8
 slug: dashboards-overview
 parentDocSlug: sysdig-monitor-introduction
 ---
+test
 
 Costs provide predictable cost analysis and savings estimates for Kubernetes environments.
 
