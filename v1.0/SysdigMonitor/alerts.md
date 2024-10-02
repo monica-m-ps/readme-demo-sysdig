@@ -5,6 +5,7 @@ weight: "16"
 no_list: true
 slug: alerts
 parentDocSlug: sysdig-monitor-introduction
+category: 66eb3c2b0654ba00132aeac8
 description: "The Sysdig Monitor Events module provides a comprehensive real-time overview of activity within your infrastructure, in the form of a live events feed. The most recent events are displayed at the top of the list. Scroll down or use the time bar at the bottom of the screen to examine events as old as thirty days."
 ---
 
